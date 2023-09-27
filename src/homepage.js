@@ -275,7 +275,7 @@ function HomePage() {
   <h1 className='twnty'>2022</h1> */}
   
         <div className='bgimg'>
-        <img src='boy.png' className='boy_img'></img>
+        <div  className='boy_img'></div>
        
        
         </div>

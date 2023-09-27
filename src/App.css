@@ -19,11 +19,13 @@ width: 100%;
   width: 432px;
 height: 654.951px;
 flex-shrink: 0;
-/* top: 133.05px;
-left: 8959px; */
-margin-left: 809px;
-right: 199px;
+border: none;
 
+}
+.bgimg{
+background: url('C:\Users\HP\my-react-assignment\public\b_img.png');
+background-repeat: no-repeat; margin-left: 809px;
+right: 199px;
 }
 .header1{
 display: flex;
