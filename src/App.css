@@ -25,7 +25,9 @@ border: none;
 .bgimg{
 background: url('C:\Users\HP\my-react-assignment\public\b_img.png');
 background-repeat: no-repeat; margin-left: 809px;
-right: 199px;
+right: 199px;opacity: 0.85;
+/* position: absolute;
+z-index: -1; */
 }
 .header1{
 display: flex;
@@ -99,6 +101,8 @@ z-index: -1;
 /* left: 0px; */
 top: 425px;
 right: 0;
+
+
 
 }
 .New_pro{

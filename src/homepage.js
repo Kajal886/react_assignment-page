@@ -276,6 +276,7 @@ function HomePage() {
   
         <div className='bgimg'>
         <div  className='boy_img'></div>
+   
        
        
         </div>
