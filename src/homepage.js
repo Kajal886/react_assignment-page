@@ -258,34 +258,29 @@ const navbar = [
 function HomePage() {
   return (
     <div className="App">
-        <div className='header1'>
+    <div className='header1'>
 <img src={car} className='car'></img><h1 className='free'>Free Delivery</h1><label className='or_op'>|</label><h1 className='return'>Return Policy</h1>
-        </div>
-      
-      <div className="App-header">
-        <h1 className='shopcart'>ShopKart</h1>
-        
-      <hr className='line'></hr> <img src={star} className='star'></img>
-      <div className='navbar'>{navbar.map((val) => (
+    </div>
+    <div className="App-header">
+    <h1 className='shopcart'>ShopKart</h1>
+    <hr className='line'></hr> <img src={star} className='star'></img>
+    <div className='navbar'>{navbar.map((val) => (
         <h1 className='nav_heading'>{val.name}</h1>
-                
-              ))}
+                 ))}
   </div>
-  {/* <h1 className='fresh'>Fresh</h1>
-  <h1 className='twnty'>2022</h1> */}
-  
+  <div className='bg_star'>
+ 
+  </div>
         <div className='bgimg'>
         <div  className='boy_img'></div>
-   
-       
-       
+           </div>
+  <div className='yellowdiv'> <h1 className='fresh'>Fresh</h1><h1 className='twnty'>2022</h1>
+        <h1 className='look'>Look</h1>
         </div>
-        <div className='yellowdiv'> <h1 className='fresh'>Fresh</h1><h1 className='twnty'>2022</h1>
-        <h1 className='look'>Look</h1></div>
-      </div>
-      <div className='second_name'>
-      <p className='New_pro'>New products<hr style={{width:"515px", marginLeft:"10px", marginTop:"-1px",background: "#161615"}}></hr></p>
-      <div className='Mid_div'>
+  </div>
+  <div className='second_name'>
+  <p className='New_pro'>New products<hr style={{width:"515px", marginLeft:"10px", marginTop:"-1px",background: "#161615"}}></hr></p>
+  <div className='Mid_div'>
         <div><p>Apparel</p><p>Accessories</p><p>Best sellers</p><p>50% off</p></div>
         <div className='images'>
         {product.map((val) => (
@@ -299,11 +294,9 @@ function HomePage() {
                </>
               ))}
         </div>
-       
-      </div>
-   
-      </div>
-      <footer className='footer'>
+        </div>
+    </div>
+    <div className='footer'>
         <div className='foo_div'>
           <div>
           <h2>Newslleter</h2>
@@ -320,10 +313,11 @@ Get news about articles and updates in your inbox.</p>
       <p className='big_head'></p>
        </div>
        
-     </footer>
+     </div>
      <div className='footer2'><p className='copyright'>Copyright 2022 All Right Reserved By SG</p></div>
-    </div>
-    
+</div>
+
+
 
 
   );

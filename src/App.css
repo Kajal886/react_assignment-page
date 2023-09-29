@@ -1,15 +1,15 @@
 .App{
 left: 0;
 right: 0;
-
-width: 100%;
+border: 3px solid yellowgreen;
+ overflow: hidden;
 }
 .App-header {
   background-color: #1A1A1A;
 
  padding-top: 1px;
  /* margin-top: -1px; */
-
+height: 814px;
 
   color: white;
   opacity: 0.9;
@@ -18,17 +18,32 @@ width: 100%;
 .boy_img{
   width: 432px;
 height: 654.951px;
-flex-shrink: 0;
 border: none;
 
 }
 .bgimg{
 background: url('C:\Users\HP\my-react-assignment\public\b_img.png');
-background-repeat: no-repeat; margin-left: 809px;
-right: 199px;opacity: 0.85;
-/* position: absolute;
-z-index: -1; */
+background-repeat: no-repeat; position: absolute;
+
+right: 92px;
+
+/* margin-left: 809px; */
+opacity: 0.85;
+
 }
+.bg_star{
+  background: url('C:\Users\HP\my-react-assignment\public\bg_star.png'); 
+  /* background-color: #F07E15; */
+  border: 1px solid #FFFFFF;
+width: 367px;
+/* margin-left: 920px; */
+right: 63px;
+height: 371.51px;position: absolute; z-index: -1;
+
+border: 1px;
+
+}
+
 .header1{
 display: flex;
 height: 42px;
@@ -116,13 +131,13 @@ line-height: normal;
 }
 .second_name{
 padding-left: 91px;
-margin-top: -30px;
+/* margin-top: -30px; */
 }
 .Mid_div{
   display: flex;
 }
 .first_img{
-  width: 305px;
+  /* width: 305px; */
 height: 322px;
 flex-shrink: 0;
 
@@ -244,7 +259,8 @@ line-height: normal;
 .fresh{
   color: #FFF; 
   /* margin-top: 137px; margin-left: 115px; */
-margin-top: -65px;margin-left: -175px;
+margin-top: -65px;
+margin-left: -175px;
 /* H1 title */
 font-family: Syne;
 font-size: 135px;
@@ -255,7 +271,7 @@ line-height: 102.6px; /* 76% */
 .twnty{
   
 /* H1 title */
-font-family: Syne;
+font-family: Syne; 
  margin-left: -30px; margin-top: -80px;
 font-size: 135px;
 font-style: normal;
@@ -270,6 +286,6 @@ font-size: 135px;
 font-weight: 800;
 line-height: 103px;
 letter-spacing: 0em;
-text-align: left;
+/* text-align: left; */
 
 }
